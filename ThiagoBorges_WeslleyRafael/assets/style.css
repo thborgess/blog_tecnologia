@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ :root {
+    --azulprincipal: #5C6AFA;
+    --azulescuro: #535ed8;
+    --azulmtescuro: #3b4297;
+}
+
+body {
+    background: var(--azulescuro);
+    color: rgb(22, 22, 22);
+    font-family: Helvetica, sans-serif;
+}
+
+header {
+    background-color: var(--azulprincipal);
+    box-shadow: 3px 0px 3px rgb(63, 61, 61);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 40px;
+    height: 68px;
+}
+
+header .logo {
+    margin-left: 155px;
+    height: 90px;
+}
+
+header nav {
+    margin-right: 120px;
+}
+
+header nav a {
+    margin-top: 5px;
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+    font-weight: 600;
+}
+
+header nav a:hover {
+    border: 5px;
+    border-radius: 2px;
+    background-color: var(--azulmtescuro)
+}
+
+
+/*section*/
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_section {
+    display: flex;
+    font-size: 13px;
+    height: 420px;
+    width: 1000px;
+    background-color: white;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgb(63, 61, 61);
+}
+
+.descricao {
+    height: 400px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.descricao img {
+    height: 160px;
+}
+
+.descricao p {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.circle {
+    background-color: #aaa;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+}
+
+.circle img {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.container_section .nome {
+    display: flex;
+    align-items: center;
+}
+
+.nome h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.container_section .video {
+    height: 400px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.Botao {
+    height: 55px;
+    width: 170px;
+    font-weight: 900;
+    border: 0;
+    border-radius: 30px;
+    background-color: var(--azulescuro);
+    color: white;
+    margin-top: 20px;
+}
+
+.Botao:hover {
+    background-color: var(--azulmtescuro);
+}
+
+footer .logo {
+    height: 90px;
+    margin-left: 155px;
+}
+
+footer nav {
+    margin-right: 120px;
+}
+
+footer nav a {
+    margin-top: 5px;
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+    font-weight: 600;
+}
+
